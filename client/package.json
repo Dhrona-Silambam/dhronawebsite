@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
@@ -20,9 +22,7 @@
     "react-simple-chatbot": "^0.6.1",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
-    "web-vitals": "^2.1.4",
-    "@emailjs/browser": "^4.3.3",
-    "@fortawesome/free-solid-svg-icons": "^6.5.2"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
