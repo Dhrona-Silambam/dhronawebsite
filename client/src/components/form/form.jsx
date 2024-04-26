@@ -19,7 +19,7 @@ const Form = () => {
 
         // Redirect to FormDataPage upon successful form submission
         const body = { firstName, lastName, dob, gender, category, phoneNumber, email };
-        const response = await fetch(`http://localhost:5000/form-data`,{
+        const response = await fetch(`https://dhronawebsite.onrender.com//form-data`,{
             method:'POST',
             headers: {
                 "Content-type":"application/json"
