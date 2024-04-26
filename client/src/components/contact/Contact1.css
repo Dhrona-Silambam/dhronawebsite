@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .c-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 83vh; /* Adjust as needed */
+    width: 100%;
+  }
+  
+  .c-image-overlay {
+    height: 83vh;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .c-center {
+    text-align: center;
+  }
+  
+  .c-one h1 {
+    margin-bottom: 10px;
+  }
+  
+  .c-text {
+    font-size: 18px;
+    color: white;
+    margin-bottom:100px;
+  }
+  .c-text1 {
+   
+    color: white;
+  }
+  
+  .c-contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin-top: 20px;
+   
+  }
+  
+  .c-card {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #212121;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4), inset 0 2px 10px white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .c-card-icon {
+    font-size: 40px;
+    background: #fdfdfa;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px; /* Keep line-height same as height to center the icon vertically */
+    border-radius: 50%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .c-card-icon i {
+    line-height: normal; /* Reset line-height for the icon inside */
+    font-size: 30px; /* Adjust icon size as needed */
+    color: #212121; /* Set icon color */
+  }
+  
+  .c-card:hover {
+    background-color: rgba(33, 33, 33, 0.75);
+  }
+  
+  .c-card:hover .c-card-icon {
+    background: none;
+    color: white;
+    transform: scale(0.8);
+  }
+  
+  .c-card p {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .c-card:hover p {
+    max-height: 80px;
+    opacity: 1;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .c-card {
+      width: 100%;
+      max-width: calc(100% - 40px);
+    }
+  }
+.c-txt{
+    color:white;
+}

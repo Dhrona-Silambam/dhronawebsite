@@ -1,0 +1,13 @@
+.chat-container {
+    position: relative;
+    margin: auto;
+    width: 300px; /* Adjust the width as needed */
+    height: 550px; /* Adjust the height as needed */
+    z-index: 1000; /* Ensure the chatbot appears above other elements */
+  }
+  
+  
+  .chatbot-wrapper {
+    width: 400px; /* Adjust width as needed */
+  }
+  

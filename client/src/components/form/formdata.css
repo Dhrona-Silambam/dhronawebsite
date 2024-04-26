@@ -1,0 +1,65 @@
+/* FormData.css */
+
+
+
+.tcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; /* Ensure elements are stacked vertically */
+  }
+  
+  .theading {
+    margin-bottom: 20px;
+  }
+
+table {
+    width: 100%; /* Adjust the width as needed */
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    .print-heading, .print-heading * {
+        visibility: visible;
+    }
+    .table-container, .table-container * {
+        visibility: visible;
+    }
+}
+
+.print-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.plogo {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+}
+
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+tr {
+    background-color: black; /* Set background color for all rows to black */
+    color: white; /* Set text color to white for better visibility */
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+tr:nth-child(even) {
+    background-color: black; /* Set background color for even rows to black */
+    color: white; /* Set text color to white for better visibility */
+}
+.table-container {
+    text-align: center; /* Center-align the content within the table */
+}

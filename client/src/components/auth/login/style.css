@@ -1,0 +1,115 @@
+body {
+  background-color: black;
+}
+
+.l-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.l-card {
+  width: 400px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #aeacac;
+}
+
+.l-card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color:black;
+}
+
+.l-form-group {
+  margin-bottom: 20px;
+}
+
+.l-form-label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.l-form-control {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+.l-form-control:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.l-btn-primary {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #ffff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.l-btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.l-error-message {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.l-btn-google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px; /* Added margin to separate buttons */
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.l-btn-google:hover {
+  background-color: #333;
+}
+
+.l-btn-google img {
+  width: 20px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.l-google-text {
+  margin-left: auto; /* Pushes the text to the center */
+}
+.l-or-separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #333;
+  margin: 20px 0;
+}
+
+.l-or-separator::before,
+.l-or-separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+  margin: 0 10px;
+}
