@@ -32,7 +32,7 @@ const Footer = () => {
         <div className='container'>
           <div className='box'>
             <div className='logo'>
-              <img src='./images/logo-light.png' alt='' />
+              <img src='./images/logo-light.PNG' alt='' />
               <h2>Do You Need Help With Anything?</h2>
               <p>"Our chatbot's here to help! Simply ask, and discover everything you need to know about Dhrona Silambam Academy."</p>
 
