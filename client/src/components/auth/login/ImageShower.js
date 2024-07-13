@@ -9,7 +9,7 @@ const ImageShower = () => {
   
     const fetchImages = async () => {
       try {
-        const response = await fetch('http://localhost:5000/images');
+        const response = await fetch('https://dhronawebsite.onrender.com/images');
         const data = await response.json();
         setImages(data);
       } catch (error) {

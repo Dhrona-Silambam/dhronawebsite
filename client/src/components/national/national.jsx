@@ -16,7 +16,7 @@ const National = () => {
   const fetchImages = async () => {
     const body = { type: 'national' }; // Send type as an object
     try {
-      const response = await fetch(`http://localhost:5000/images`, {
+      const response = await fetch(`https://dhronawebsite.onrender.com/images`, {
         method: 'POST',
         headers: {
           "Content-Type": "application/json"

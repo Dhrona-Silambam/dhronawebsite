@@ -38,7 +38,7 @@ function Upload() {
     formDataToSend.append('batch', formData.batch);
   
     try {
-      const response = await fetch('http://localhost:5000/upload', {
+      const response = await fetch('https://dhronawebsite.onrender.com/upload', {
         method: 'POST',
         body: formDataToSend
       });
