@@ -1,25 +1,32 @@
-//Location
-import React from "react"
-import Back from "../common/Back"
-import PriceCard from "../home/price/PriceCard"
-import img from "../images/banner.png"
-import "../home/price/price.css"
+ // Import Bootstrap CSS
 
-const Pricing = () => {
-  return (
-    <>
-      <section className='pricing mb'>
-        <Back name='30 days money back guarantee' title='No Extra Fees. Friendly Support' cover={img} />
-        <div className='heading'>
-        <h1>Fee Payment</h1>
-       
-      </div>
-        <div className='price container'>
-          <PriceCard />
-        </div>
-      </section>
-    </>
-  )
-}
+ import PriceCard from "../home/price/PriceCard";
 
-export default Pricing
+ import "../home/price/price.css";
+ 
+ const Pricing = () => {
+   return (
+     <>
+       <section className="pricing mb">
+         <div className="container">
+           <div className="heading text-center"> {/* Added Bootstrap classes */}
+             <br />
+             <br />
+             <br />
+             <h1 style={{ color: "white" }}>Dhrona Silambam</h1>
+             <br />
+             <br/>
+             <h1 style={{fontSize:"30px"}}>Fee pay</h1>
+           </div>
+           <div className="price row justify-content-center"> {/* Added Bootstrap classes */}
+             <div className="col-md-6"> {/* Added Bootstrap classes */}
+               <PriceCard />
+             </div>
+           </div>
+         </div>
+       </section>
+     </>
+   );
+ };
+ 
+ export default Pricing;

@@ -5,9 +5,7 @@ const Heading = ({ title, subtitle }) => {
     <>
       <div className='heading'>
         <h1>Dhrona Silambam</h1>
-        <p>"Embracing Tradition: Where Every Swing Counts"
-          
-        </p>
+        <p>"Empowering Tradition","Swing and not a miss"</p>
       </div>
     </>
   )

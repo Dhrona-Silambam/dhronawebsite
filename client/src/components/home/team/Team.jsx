@@ -25,10 +25,10 @@ const Team = () => {
                     {val.icon.map((icon, index) => (
                       <li key={index}>
                         {index === 0 ? (
-                          <a href={val.facebookLink} target='_blank' rel='noopener noreferrer'>
+                          <a href={val.linkedinLink} target='_blank' rel='noopener noreferrer'>
                             {icon}
                           </a>
-                        ) : index === 3 ? (
+                        ) : index === 1 ? (
                           <a href={val.instagramLink} target='_blank' rel='noopener noreferrer'>
                             {icon}
                           </a>

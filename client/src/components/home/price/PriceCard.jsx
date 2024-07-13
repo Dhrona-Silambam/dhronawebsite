@@ -6,7 +6,10 @@ const PriceCard = () => {
     <div className="ab">
       <div className="content flex mtop">
         <div className="pay-button-container">
-          <button className="pay-button">Pay Now</button>
+        <a href="https://pages.razorpay.com/pl_Nwpg2CUJngFuJP/view" className="pay-button" target="_blank" rel="noopener noreferrer">
+  <button>Pay Now</button>
+</a>
+
         </div>
       </div>
     </div>
@@ -14,3 +17,4 @@ const PriceCard = () => {
 };
 
 export default PriceCard;
+

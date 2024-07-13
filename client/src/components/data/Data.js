@@ -1,3 +1,4 @@
+
 export const nav = [
   {
     text: "home",
@@ -15,7 +16,7 @@ export const nav = [
     text: "Location",
     path: "/blog",
   },
-  {
+ {
     text: "Transactions",
     path: "/pricing",
   },
@@ -28,34 +29,36 @@ export const featured = [
   {
     cover: "../images/hero/h1.png",
     name: "Internatinal Players",
-    total: "1",
+    total: "",
     redirectPageLink: '/international',
   },
   {
     cover: "../images/hero/h2.png",
     name: "National Players",
-    total: "0",
+    total: "",
     redirectPageLink: '/national',
   },
   {
     cover: "../images/hero/h3.png",
     name: "State Players",
-    total: "3",
+    total: "",
     redirectPageLink: '/state',
   },
   {
     cover: "../images/hero/h4.png",
     name: "District Players",
-    total: "14",
+    total: "",
     redirectPageLink: '/district',
   },
   {
     cover: "../images/hero/h6.png",
     name: "CM Trophy",
-    total: "13",
+    total: "",
     redirectPageLink: '/cmtrophy',
   },
 ]
+
+
 export const list = [
   {
     id: 1,
@@ -115,7 +118,7 @@ export const list = [
 export const awards = [
   {
     icon: <i class="fas fa-globe"></i>,
-    num: "1",
+    num: "1	",
     name: "International Players",
   },
   {
@@ -125,9 +128,10 @@ export const awards = [
   },
   {
     icon: <i class="fas fa-map-pin"></i>,
-    num: "14",
+    num: "3",
     name: "State players",
   },
+  
   {
     icon: <i class='fa-solid fa-trophy'></i>,
     num: "30",
@@ -190,12 +194,12 @@ export const team = [
     cover: "../images/customer/team-1.jpg",
     address: "Chennai",
     name: "Kowshik Palanisamy",
-    facebookLink: "https://www.instagram.com/_k_o_w_s_i___?igsh=N2hkMWpkcGhhdTVo",
+    linkedinLink:"https://in.linkedin.com/in/kowshik-palanisamy-16623b251?utm_source=share&utm_medium=member_mweb&utm_campaign=share_via&utm_content=profile",
     instagramLink:  "https://www.instagram.com/_k_o_w_s_i___/?igsh=N2hkMWpkcGhhdTVo",
     phoneNumber: "8489307414",
     email: "kowsiabde@gmail.com",
     
-    icon: [<i className='fa-brands fa-facebook-f'></i>, <i className='fa-brands fa-linkedin'></i>, <i className='fa-brands fa-twitter'></i>, <i className='fa-brands fa-instagram'></i>],
+    icon: [ <i className='fa-brands fa-linkedin'></i>,  <i className='fa-brands fa-instagram'></i>],
   },
   
 ]
@@ -292,3 +296,6 @@ export const footer = [
     text: [{ list: "About" }, { list: "Blog" }, { list: "Pricing" }, { list: "Affiliate" }, { list: "Login" }, { list: "Changelog" }],
   },
 ]
+
+
+

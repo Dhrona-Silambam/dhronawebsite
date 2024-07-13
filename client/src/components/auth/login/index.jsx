@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { signInWithEmailAndPassword, signInWithPopup } from 'firebase/auth';
-import { auth, provider } from '../../../firebase/firebase.config';
-import image from './google-icon.png';
+import { signInWithEmailAndPassword} from 'firebase/auth';
+import { auth } from '../../../firebase/firebase.config';
+
 import './style.css';
 
 const Login = () => {
@@ -26,12 +26,7 @@ const Login = () => {
       });
   };
 
-  const handleGoogleLogin = async () => {
-    signInWithPopup(auth, provider).then((data) => {
-      localStorage.setItem('email', data.user.email);
-      window.location.href = '/otp'; // Redirect after successful Google login
-    });
-  };
+ 
 
   return (
     <div className="l-container">
@@ -66,15 +61,8 @@ const Login = () => {
           <button type="submit" className="l-btn btn-primary">Login</button>
           <br/>
         </form>
-        <div className="l-or-separator">or</div>
-        <button
-          type="button"
-          className="l-btn btn-primary mt-3 l-btn-google"
-          onClick={handleGoogleLogin}
-        >
-          <img src={image} alt="Google Icon" className="l-google-icon" />
-          <span>Login with Google</span>
-        </button>
+       <br/>
+
         {error && <p className="l-error-message">{error}</p>}
       </div>
     </div>

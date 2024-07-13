@@ -1,3 +1,5 @@
+
+
 import React from 'react';
 import { useLocation } from 'react-router-dom';
 import './formdata.css';
@@ -59,6 +61,7 @@ const FormData = () => {
                     </tbody>
                 </table>
             </div>
+            <br/>
             <button onClick={handlePrintPDF}>Print PDF</button>
         </div>
     );

@@ -1,10 +1,11 @@
 import React from 'react';
-import {useEffect,useState} from 'react' // Import the national achievements data
+import {useEffect,useState} from 'react'// Import the national achievements data
 // Import your image file
 import './style.css';
 
 
-const State = () => {
+const District = () => {
+
   const [images, setImages] = useState(null);
   
   useEffect(() => {
@@ -13,7 +14,7 @@ const State = () => {
   }, []); // Empty dependency array ensures that the effect runs only once
 
   const fetchImages = async () => {
-    const body = { type: 'state' }; // Send type as an object
+    const body = { type: 'district' }; // Send type as an object
     try {
       const response = await fetch(`http://localhost:5000/images`, {
         method: 'POST',
@@ -35,7 +36,7 @@ const State = () => {
    
  <>
       <div className="heading-container">
-        <h1 className="text-center"><b>STATE LEVEL ACHIEVEMENTS</b></h1>
+        <h1 className="text-center"><b>DISTRICT LEVEL ACHIEVEMENTS</b></h1>
       </div>
 <div className="maincontainer">
 
@@ -71,5 +72,4 @@ const State = () => {
 </div></>
   );
 };
-
-export default State;
+export default District;

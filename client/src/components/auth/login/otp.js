@@ -63,7 +63,7 @@ const OTP = () => {
         console.log(res);
         setUser(res.user);
         setLoading(false);
-        history.push('/dashboard'); // Redirect to dashboard or desired page
+        history.push('/upload'); // Redirect to dashboard or desired page
       })
       .catch((err) => {
         console.log(err);

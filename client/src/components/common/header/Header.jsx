@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import "./header.css"
 import { nav } from "../../data/Data"
-import { Link,useNavigate } from "react-router-dom"
+import { Link} from "react-router-dom"
 
 
 const Header = () => {
@@ -13,7 +13,7 @@ const Header = () => {
       <header>
         <div className='container flex'>
           <div className='logo'>
-            <img src='./images/logo.PNG' alt='' />
+            <img src='./images/logo.png' alt='' />
           </div>
           <div className='nav'>
             <ul className={navList ? "large" : "flex"}>

@@ -1,3 +1,5 @@
+
+
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import './form.css'
@@ -19,7 +21,7 @@ const Form = () => {
 
         // Redirect to FormDataPage upon successful form submission
         const body = { firstName, lastName, dob, gender, category, phoneNumber, email };
-        const response = await fetch(`https://dhronawebsite.onrender.com/form-data`,{
+        const response = await fetch(`http://localhost:5000/form-data`,{
             method:'POST',
             headers: {
                 "Content-type":"application/json"
@@ -50,9 +52,11 @@ const Form = () => {
                         required
                         value={firstName}
                         onChange={(e) => setFirstName(e.target.value)}
+                        placeholder='Enter your first name'
                         className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg transition duration-300"
                     />
                 </div>
+                <br/>
 
                 <div>
                     <label className="text-sm text-gray-600 font-bold">Last Name</label>
@@ -60,10 +64,12 @@ const Form = () => {
                         type="text"
                         required
                         value={lastName}
+                        placeholder='Enter your last name'
                         onChange={(e) => setLastName(e.target.value)}
                         className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg transition duration-300"
                     />
                 </div>
+                <br/>
 
                 <div>
                     <label className="text-sm text-gray-600 font-bold">Date of Birth</label>
@@ -75,6 +81,7 @@ const Form = () => {
                         className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg transition duration-300"
                     />
                 </div>
+                <br/>
 
                 <div>
                     <label className="text-sm text-gray-600 font-bold">Gender</label>
@@ -83,11 +90,13 @@ const Form = () => {
                         onChange={(e) => setGender(e.target.value)}
                         className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg transition duration-300"
                     >
+                       
                         <option value="">Select Gender</option>
                         <option value="male">Male</option>
                         <option value="female">Female</option>
                     </select>
                 </div>
+                <br/>
 
                 <div>
                     <label className="text-sm text-gray-600 font-bold">Category</label>
@@ -103,6 +112,7 @@ const Form = () => {
                         {/* Add more options as needed */}
                     </select>
                 </div>
+                <br/>
 
                 <div>
                     <label className="text-sm text-gray-600 font-bold">Phone Number</label>
@@ -110,21 +120,24 @@ const Form = () => {
                         type="tel"
                         required
                         value={phoneNumber}
+                        placeholder='Enter your phone number'
                         onChange={(e) => setPhoneNumber(e.target.value)}
                         className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg transition duration-300"
                     />
                 </div>
-
+                <br/>
                 <div>
                     <label className="text-sm text-gray-600 font-bold">Email</label>
                     <input
                         type="email"
                         required
                         value={email}
+                        placeholder='Enter your email'
                         onChange={(e) => setEmail(e.target.value)}
                         className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg transition duration-300"
                     />
                 </div>
+                <br/>
 
                 <button
                     type="submit"

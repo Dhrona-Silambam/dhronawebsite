@@ -44,11 +44,11 @@ const Contact = () => {
             </div>
             <div className="c-card">
               <FontAwesomeIcon className="c-card-icon" icon={faPhone} />
-              <p className="c-txt">+91 9500056905</p>
+              <p className="c-txt">+91 8489307414</p>
             </div>
             <div className="c-card">
               <FontAwesomeIcon className="c-card-icon" icon={faMapMarkerAlt} />
-              <p className="c-txt">50,south street,<br />Kotturpuram,<br /> Chennai-600 095</p>
+              <p className="c-txt">95, Ellaiamman kovil street,<br />Kotturpuram,<br /> Chennai-600 095</p>
             </div>
           </div>
         </div>

@@ -4,7 +4,7 @@ import {useEffect,useState} from 'react' // Import the national achievements dat
 import './style.css';
 
 
-const State = () => {
+const CMtrophy = () => {
   const [images, setImages] = useState(null);
   
   useEffect(() => {
@@ -13,7 +13,7 @@ const State = () => {
   }, []); // Empty dependency array ensures that the effect runs only once
 
   const fetchImages = async () => {
-    const body = { type: 'state' }; // Send type as an object
+    const body = { type: 'cmtrophy' }; // Send type as an object
     try {
       const response = await fetch(`http://localhost:5000/images`, {
         method: 'POST',
@@ -35,7 +35,7 @@ const State = () => {
    
  <>
       <div className="heading-container">
-        <h1 className="text-center"><b>STATE LEVEL ACHIEVEMENTS</b></h1>
+        <h1 className="text-center"><b>CM TROPHY ACHIEVEMENTS</b></h1>
       </div>
 <div className="maincontainer">
 
@@ -72,4 +72,4 @@ const State = () => {
   );
 };
 
-export default State;
+export default CMtrophy;

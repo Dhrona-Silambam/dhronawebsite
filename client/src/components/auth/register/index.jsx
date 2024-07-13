@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { AuthContext } from '../../../contexts/authContext'
 import { doCreateUserWithEmailAndPassword } from '../../../firebase/auth'
-import { useHistory } from 'react-router-dom/cjs/react-router-dom.min'
+import { useHistory } from 'react-router-dom'
 
 const Register = () => {
 
@@ -61,6 +61,7 @@ const Register = () => {
                         className="space-y-4"
                     >
                         <div>
+                           
                             <label className="text-sm text-gray-600 font-bold">
                                 Email
                             </label>

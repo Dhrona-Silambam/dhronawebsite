@@ -8,7 +8,7 @@ const Awards = () => {
     <>
       <section className='awards padding'>
         <div className='container'>
-          <h1>Achievements</h1>
+          <Heading title='Over 1,24,000+ Happy User Bieng With Us Still They Love Our Services' subtitle='Our Awards' />
 
           <div className='content grid4 mtop'>
             {awards.map((val, index) => (
