@@ -50,6 +50,12 @@ footer ul li {
   background: black;
   color: rgba(255, 255, 255, 0.5);
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.legal span{
+  color: rgba(255, 255, 255, 0.5);
 }
 @media screen and (max-width: 800px) {
   footer .container {

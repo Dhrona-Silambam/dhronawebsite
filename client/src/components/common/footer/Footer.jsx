@@ -1,5 +1,5 @@
 import React from "react";
-import { useHistory } from 'react-router-dom';
+import { useHistory, Link } from 'react-router-dom';
 
 import "./footer.css";
 
@@ -47,6 +47,8 @@ const Footer = () => {
 
       <div className='legal'>
         <span>© 2024 DHRONA SILAMBAM.</span>
+        <Link to='/privacy-policy' onClick={() => window.scrollTo(0, 0)}><span>Privacy Policy</span></Link>
+        <Link to='/terms-and-conditions' onClick={() => window.scrollTo(0, 0)}><span>Terms and Conditions</span></Link> 
       </div>
     </>
   )

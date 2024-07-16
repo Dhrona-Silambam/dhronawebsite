@@ -8,6 +8,8 @@ import Pricing from "../pricing/Pricing"
 import Blog from "../blog/Blog"
 import Services from "../services/Services"
 import Contact from "../contact/Contact"
+import Policy from "../privacy_policy/Policy"
+import Terms from "../terms/Terms"
 
 import Login from "../auth/login/index"
 import OTP from "../auth/login/otp"
@@ -54,6 +56,8 @@ const Pages = () => {
           <Route exact path="/state" component={State}/>
           <Route exact path="/international" component={International}/>
           <Route exact path="/imageshow" component={ImageShower}/>
+          <Route exact path="/privacy-policy" component={Policy}/>
+          <Route exact path="/terms-and-conditions" component={Terms}/>
         </Switch>
         <Footer />
       </Router>
