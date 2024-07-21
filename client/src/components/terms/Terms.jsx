@@ -78,6 +78,38 @@ const Terms = () => {
           <p>Dhrona Silambam is not liable for any damages that may occur to you as a result of
           your misuse of our website.</p><br/>
 
+          <h2>Cancellation and Refund Policy</h2><br/>
+          <h3>Class Cancellations by Student</h3>
+          <p>If you need to cancel your class booking, please notify us at least 24 hours in advance to avoid any charges.
+          Cancellations made within 24 hours of the scheduled class time will incur a fee equivalent to 50% of the class fee.
+          No-shows or cancellations made within 2 hours of the scheduled class time will be charged the full class fee.</p><br/>
+          
+          <h3>Class Cancellations by Dhrona Silambam</h3>
+          <p>In the unlikely event that a class is cancelled by Dhrona Silambam, students will be notified as soon as possible.
+          Students will be given the option to reschedule the class at a later date or receive a full refund for the cancelled class.</p><br/>
+
+          <h3>Refunds for Cancelled Classes</h3>
+          <p>Full refunds will be issued for classes cancelled by Dhrona Silambam.
+          For student-initiated cancellations made at least 24 hours in advance, a full refund will be provided.</p><br/>
+
+          <h3>Refund Process</h3>
+          <p>Refund requests should be submitted via email to <b>dhronasilambam@gmail.com.</b>
+          Refunds will be processed within 7-10 business days from the date of the cancellation request approval.
+          Refunds will be issued using the same method of payment used for the original transaction.</p><br/>
+
+          <h3>Non-Refundable Items</h3>
+          <p>Registration fees and membership dues are non-refundable.
+          Fees for missed classes or late cancellations (within 24 hours of class time) are non-refundable.</p><br/>
+
+          <h2>Special Circumstances</h2><br/>
+          <h3>Medical Emergencies</h3>
+          <p>
+          In cases of medical emergencies, students may be eligible for a full or partial refund, subject to approval and with appropriate documentation.  
+          </p><br/>
+
+          <h3>Force Majeure</h3>
+          <p>Dhrona Silambam is not responsible for cancellations due to events beyond our control, such as natural disasters, governmental regulations, or other unforeseeable circumstances. In such cases, refunds or rescheduling options will be considered on a case-by-case basis.</p><br/>
+
           <h2>Changes to This Agreement</h2>
           <p>Dhrona Silambam reserves the right to edit, modify, and change this Agreement at
           any time. We shall let our users know of these changes through electronic mail. This
